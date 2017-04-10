@@ -25,8 +25,8 @@
        {!! Form::select('is_active', array(1=>'Active', 0=>'Not active'),0, ['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
-        {!! Form::label('file', 'Profile Picture') !!}
-        {!! Form::file('file', null, ['class'=>'form-control']) !!}
+        {!! Form::label('photo_id', 'Profile Picture') !!}
+        {!! Form::file('photo_id', null, ['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
        {!! Form::submit('Create User', ['class'=>'btn btn-primary']) !!}
