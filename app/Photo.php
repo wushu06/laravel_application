@@ -15,4 +15,7 @@ class Photo extends Model
         return $this->upload.$photo;
 
     }
+    public function posts(){
+        return $this->hasMany('App\Post');
+    }
 }

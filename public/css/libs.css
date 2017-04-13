@@ -8418,6 +8418,7 @@ body {
 .navbar-top-links .dropdown-user {
     right: 0;
     left: auto;
+    height:120px;
 }
 
 .sidebar .sidebar-nav.navbar-collapse {
